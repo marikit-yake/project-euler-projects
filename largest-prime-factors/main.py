@@ -26,6 +26,6 @@ def prime_factor(n):
 	return prime_factors
 
 
-# prime_factor(100)
-# prime_factor(13195)
-print(max(prime_factor(600851475143)))
+prime_factor(100)
+prime_factor(13195)
+# print(max(prime_factor(600_851_475_143)))
