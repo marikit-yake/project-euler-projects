@@ -19,11 +19,15 @@ def fib(n):
 		return temp_fib
 
 
-print(fib(100))
-print(fib_array)
+fib(100)
 
 
 # List comprehension capturing even numbers, based on previous fib_array
-even_array = [num for num in fib_array if (num % 2 == 0 and num < 4_000_000)]
+even_array = [
+				num 
+				for num in fib_array 
+				if (num % 2 == 0 and num <= 4_000_000)
+]
+
 print(even_array)
 print(sum(even_array))
