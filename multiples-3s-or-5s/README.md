@@ -6,7 +6,7 @@
 
 ## Goal: Find the sum of all the multiples of 3 or 5 below 1000
 
-<img src="./images/CAPTURE.PNG" />
+<img src="/multiples-3s-or-5s/images/CAPTURE.PNG" alt="Code used in this project"/>
 
 
 For the solution to this problem, I used a range function to generate a range object that included integers from 1-to-1000 (since natural numbers exclude zero). To keep the solution concise, explicit, and since we aren't working with a larger set of numbers, I chose to implement a list comprehension which loops over every number in our range object, only adding one of those numbers if they meet the criteria specified in the if-statement. 
