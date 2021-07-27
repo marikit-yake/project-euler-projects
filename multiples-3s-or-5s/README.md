@@ -13,3 +13,5 @@ For the solution to this problem, I used a range function to generate a range ob
 
 
 ## Solution: The sum of all the multiples of 3 or 5 below 1000:  233168
+
+<img src="/multiples-3s-or-5s/images/solution.PNG" alt="Solution to this project"/>
